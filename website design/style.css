@@ -1,6 +1,13 @@
 /* common shaed styles*/
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
 }
 
 body {
@@ -15,13 +22,14 @@ header {
 }
 
 .btn-primary {
+    margin: 0 10px;
     border-radius: 8px;
     background: #E55473;
     border: 0;
     color: #fff;
     font-size: 20px;
     font-weight: 700;
-    padding: 20px 45px;
+    padding: 13px 35px;
 }
 
 .banner {
@@ -34,30 +42,29 @@ header {
     margin-top: 50px;
     width: 500px;
     height: 600px;
+    padding-left: 100px;
 
 }
 
 .banner-title {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
     color: #272727;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-right: 0px;
 }
+
 .banner-content p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
 /*main section*/
-.home {
-    margin-left: 150px;
-    margin-right: 100px;
-}
 
 .featured {
-    padding-top: 100px;
+    padding-top: 120px;
     text-align: center;
 }
 
@@ -65,6 +72,7 @@ header {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .section-description {
@@ -76,6 +84,7 @@ header {
 .featured-pic {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .featured-pic div div {
@@ -136,53 +145,158 @@ header {
 }
 
 .container {
- display: flex;
- justify-content: space-between;
- padding: 100px;  
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
 }
-.service .container.icon{
-    padding-right: 50px;
+
+.service .container .icon img {
+    width: 80px;
 }
+
+.service .container .icon h6 {
+    color: grey;
+    font-size: 15px;
+}
+
 .poster {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 120px;
 }
-.poster .box{
+
+.poster .box {
     display: flex;
     justify-content: center;
-    padding-left: 200px;
     justify-content: space-between;
 }
-.poster .box .box-title{
+
+.poster .box .box-title {
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding-top: 300px;
+    padding-bottom: 30px;
 }
-.poster .box img{
+
+.poster .box img {
     margin-right: 100pxpx;
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.poster .box p{
+
+.poster .box p {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     font-weight: 400;
+    margin-bottom: 30px;
 }
-.poster .box h5{
+
+.poster .box h5 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.poster .box h5 span {
+    color: #E55473;
+    margin-bottom: 0;
+}
+
+.instagram-pic {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe_section {
+    margin-bottom: 100px;
+}
+
+.subscribe {
+    background-image: url('../images/Rectangle\ 9.png');
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer {
+    background: #111010;
+    padding-bottom: 100px;
+}
+
+.footer h1 span {
+    color: #E55473;
+    height: 800px;
+}
+
+.footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer h6 {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.instagram_section {
+    margin-bottom: 100px;
+}
+
+.instacard {
+    width: 20vw;
+    height: 20vw;
+}
+
+.instacard:first-child,
+.instacard:nth-child(2),
+.instacard:nth-child(3) {
+    margin-right: 10px;
+}
+
+.instagram-pic:last-child {}
+
+.instacard img {
+    width: 100%;
+}
+
+.subscribe {
+    padding-top: 80px;
+}
+
+.subscribe .sub-text h1 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
-.poster .box h5 span{
-    color: #E55473;
-    margin-bottom: 0;
+
+.subscribe .sub-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
 }
-.home .instagram-pic{
-    display: flex;
-    text-align: center;
-}
-.home .subscibe{
-    background-image: url('../images/Rectangle\ 9.png');
+
+.subscribe input {
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    padding: 10px 22px;
 }
