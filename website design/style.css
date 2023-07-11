@@ -213,12 +213,7 @@ header {
     margin-bottom: 100px;
 }
 
-.subscribe {
-    background-image: url('../images/Rectangle\ 9.png');
-    height: 300px;
-    background-size: cover;
-    text-align: center;
-}
+
 
 .footer {
     background: #111010;
@@ -276,8 +271,12 @@ header {
 }
 
 .subscribe {
-    padding-top: 80px;
+    background-image: url('../images/Rectangle\ 9.png');
+    background-size: cover;
+    text-align: center;
+    padding: 80px 20px;
 }
+
 
 .subscribe .sub-text h1 {
     color: #272727;
@@ -292,11 +291,14 @@ header {
 }
 
 .subscribe input {
-    margin-top: 50px;
     width: 500px;
     height: 50px;
     border-radius: 10px;
     background: #FFF;
     border: none;
     padding: 10px 22px;
+}
+.subscribe .sub-text p{
+    padding: 15px 15px;
+    margin-bottom: 30px;
 }
