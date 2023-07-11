@@ -329,6 +329,9 @@ header {
 .container-form li{
     padding-top: 10px;
 }
+.location{
+    text-align: center;
+}
 .location h1{
     text-align: center;
     padding-top: 10%;
@@ -341,4 +344,15 @@ header {
     justify-content: center;
     justify-content: space-around;
     background: whitesmoke;
+}
+.location-container{
+    padding: 80px 0px;
+}
+.hd-bn{
+    margin-bottom: 50px;
+}
+.locat i{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #E55473;
 }
